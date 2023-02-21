@@ -17,4 +17,7 @@ The program performs all different algorithm combinations to a folder containing
 
 3. ./PROJECT_3 -i data/uniform/ -o PROJECT_output.txt
 
-## For more detailed Information about the project check this out:
+### For more info check this out:
+
+[project_merged.pdf.pdf](https://github.com/panagiotiskon/Software-Development-for-Algorithmic-Problems-Full-Project/files/10792930/project_merged.pdf.pdf)
+
