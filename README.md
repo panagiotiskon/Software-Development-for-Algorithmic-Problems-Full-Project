@@ -24,5 +24,5 @@ The program performs all different algorithm combinations to a folder containing
 
 ## More about the Project:
 
-[project_merged.pdf.pdf](https://github.com/panagiotiskon/Software-Development-for-Algorithmic-Problems-Full-Project/files/10792930/project_merged.pdf.pdf)
+[Uploading project_description.pdf…]()
 
