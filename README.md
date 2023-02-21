@@ -9,6 +9,10 @@ the previously developed algorithms Local Search and Simulated Annealing(Locally
 
 The program performs all different algorithm combinations to a folder containing test sets and prints the results in PROJECT_output.txt for further observation.
 
+## Prerequisites:
+
+ - CGAL v. 5.0.2-3 and above.
+
 ## How to run:
 
 1. cmake -DCGAL_DIR=$CMAKE_INSTALLED_PREFIX/lib/CGAL -DCMAKE_BUILD_TYPE=Release .
