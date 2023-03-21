@@ -38,7 +38,6 @@ list(APPEND EXTRA_LIBS Area_maximization_minimization)
 # include for local package
 
 
-
 # ############################
 
 add_executable( PROJECT_3 PROJECT_3.cpp )
@@ -47,4 +46,5 @@ add_to_cached_list( CGAL_EXECUTABLE_TARGETS PROJECT_3 )
 
 # Link the executable to CGAL and third-party libraries
 
-target_link_libraries(PROJECT_3 PRIVATE CGAL::CGAL ${EXTRA_LIBS})
+target_link_libraries(PROJECT_3 PRIVATE 
+                      CGAL::CGAL ${EXTRA_LIBS})

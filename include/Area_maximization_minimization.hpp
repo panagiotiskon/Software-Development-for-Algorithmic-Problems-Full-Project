@@ -1,14 +1,16 @@
+#ifndef AREA_HPP
+#define AREA_HPP
+
 #include <cstdlib>
 #include <CGAL/Exact_predicates_inexact_constructions_kernel.h>
 #include <CGAL/Polygon_2.h>
 #include <CGAL/Kd_tree.h>
 #include <CGAL/Fuzzy_iso_box.h>
 #include <CGAL/Search_traits_2.h>
-  #include <sys/types.h>
+#include <sys/types.h>
 #include <CGAL/convex_hull_2.h>
 
 #include <time.h>
-using namespace std::chrono;
 
 typedef CGAL::Exact_predicates_inexact_constructions_kernel K;
 typedef K::Point_2 Point_2;     // antikeimeno tupou point
@@ -16,6 +18,7 @@ typedef K::Segment_2 Segment_2; // antikeimeno typou pleuras
 typedef CGAL::Polygon_2<K> Polygon_2;
 typedef std::vector<Point_2> Points;                    // vector me stoixeia point
 typedef std::vector<Segment_2> segments;                // vector me stoixeia pleurwn
+typedef std::vector<Polygon_2> Polygon_v; // vector with Polygon_2 objects
 
 typedef CGAL::Search_traits_2<K> T;
 typedef CGAL::Fuzzy_iso_box<T> box;
@@ -43,8 +46,6 @@ typedef std::vector<Segment_2>::iterator segiterator; // iterator gia segments
 typedef std::vector<double> distance;  
 typedef std::vector<Polygon_2> Polygon_v; // vector with Polygon_2 objects
 typedef std::vector<int> List;
-
-void polygonization_application(char **argv);
 
 void handle_input(char **);
 int create_polygon(char *);
@@ -95,3 +96,6 @@ segments final_polygon(int i, int j, Point_2 v, Segment_2 u, segments chain, int
 segments change_direction(segments chain_seg);
 int find_blue_edge(Segment_2 k, Points convex_hull, segments chain, int mid);
 bool point_of_segment(Segment_2 s, Point_2 p);
+
+
+#endif
