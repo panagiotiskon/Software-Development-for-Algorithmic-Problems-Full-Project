@@ -1,5 +1,6 @@
 
-#include "pol_app.hpp"
+#include "Pol_app.hpp"
+
 using namespace std;
 
 void polygonization_application(char **argv)

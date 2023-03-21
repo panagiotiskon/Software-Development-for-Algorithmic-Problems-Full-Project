@@ -7,7 +7,7 @@
 #include <CGAL/Fuzzy_iso_box.h>
 #include <sys/types.h>
 
-#include "include/pol_app.hpp"
+#include "include/Pol_app.hpp"
 
 #include <cstdlib>
 #include <time.h>

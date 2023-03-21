@@ -47,6 +47,7 @@ typedef std::vector<double> distance;
 typedef std::vector<Polygon_2> Polygon_v; // vector with Polygon_2 objects
 typedef std::vector<int> List;
 
+
 void handle_input(char **);
 int create_polygon(char *);
 void create_chain(int);
@@ -85,17 +86,7 @@ Points init_1b(Points p);
 Points init_2a(Points p);
 Points init_2b(Points p);
 
-segments incremental_min(Points , Points , segments , segments ,Segment_2);
-segments incremental_max(Points , Points , segments , segments,Segment_2);
-segments incremental(Points , Points , segments, segments,Segment_2 ); 
-Segment_2 edge_exists(Point_2 , Point_2 , segments );
-segments create_segments(Points );
-int find_red_segments(Segment_2 , Points , segments , int );
-int construct_polygon(int i, int j, Point_2 v, Segment_2 u, segments chain, int polygon_area, int l, Points tp);
-segments final_polygon(int i, int j, Point_2 v, Segment_2 u, segments chain, int l);
-segments change_direction(segments chain_seg);
-int find_blue_edge(Segment_2 k, Points convex_hull, segments chain, int mid);
-bool point_of_segment(Segment_2 s, Point_2 p);
+
 
 
 #endif
