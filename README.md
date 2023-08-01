@@ -9,17 +9,15 @@ the previously developed algorithms Local Search and Simulated Annealing(Locally
 
 The program performs all different algorithm combinations to a folder containing test sets and prints the results in PROJECT_output.txt for further observation.
 
-## Prerequisites:
-
- - CGAL v. 5.0.2-3 and above.
-
 ## How to run:
 
     cmake -DCGAL_DIR=$CMAKE_INSTALLED_PREFIX/lib/CGAL -DCMAKE_BUILD_TYPE=Release .
     make
     ./PROJECT_3 -i data/uniform/ -o PROJECT_output.txt
 
+## Prerequisites:
 
-## More about the Project:
+ - CGAL v. 5.0.2-3 and above.
 
-[project_description.pdf](https://github.com/panagiotiskon/Software-Development-for-Algorithmic-Problems-Full-Project/files/10794330/project_description.pdf)
+
+### Check out the detailed description of the Project [here](https://github.com/panagiotiskon/Software-Development-for-Algorithmic-Problems-Full-Project/files/10794330/project_description.pdf)
