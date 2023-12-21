@@ -1,3 +1,5 @@
+# 📐 Different Polygonization Tactics and Methods 
+
 ## Getting Started:
 
 This project was implemented for the course Developing Software for Algorithmic Problems (K23), during the winter semester 2022-2023 CS NKUA. 
