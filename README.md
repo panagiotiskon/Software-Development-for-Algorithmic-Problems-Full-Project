@@ -16,11 +16,15 @@ The program performs all different algorithm combinations to a folder containing
  - CGAL v. 5.0.2-3 and above.
 
 ## How to run:
-
-    cmake -DCGAL_DIR=$CMAKE_INSTALLED_PREFIX/lib/CGAL -DCMAKE_BUILD_TYPE=Release .
-    make
-    ./PROJECT_3 -i data/uniform/ -o PROJECT_output.txt
-
+```
+cmake -DCGAL_DIR=$CMAKE_INSTALLED_PREFIX/lib/CGAL -DCMAKE_BUILD_TYPE=Release .
+```
+```
+make
+```
+```
+./PROJECT_3 -i data/uniform/ -o PROJECT_output.txt
+```
 
 ## More about the Project:
 
